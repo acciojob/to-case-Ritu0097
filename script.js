@@ -1,6 +1,10 @@
 function toCase(text) {
-  let textnew=text.toUppercase '-'text.toLowercase;
-	console.log(textnew);
+ if (str==="") {
+        return"-";
+    }
+    const lowerCase=str.toLowerCase();
+    const upperCase=str.toUpperCase();
+    return lowerCase+"-"+upperCase;
 }
 
 // DO not change the code below
